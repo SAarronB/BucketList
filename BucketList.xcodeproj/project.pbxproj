@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C64F318B21B1839E00B5F491 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F318A21B1839E00B5F491 /* BucketItem.swift */; };
+		C64F318D21B1845200B5F491 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F318C21B1845200B5F491 /* BucketItemCell.swift */; };
+		C64F318F21B184C500B5F491 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64F318E21B184C500B5F491 /* DataViewController.swift */; };
 		C693B41621AC48D200A948F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693B41521AC48D200A948F4 /* AppDelegate.swift */; };
-		C693B41821AC48D200A948F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693B41721AC48D200A948F4 /* ViewController.swift */; };
 		C693B41B21AC48D200A948F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C693B41921AC48D200A948F4 /* Main.storyboard */; };
 		C693B41D21AC48E600A948F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C693B41C21AC48E600A948F4 /* Assets.xcassets */; };
 		C693B42021AC48E600A948F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C693B41E21AC48E600A948F4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C64F318A21B1839E00B5F491 /* BucketItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		C64F318C21B1845200B5F491 /* BucketItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
+		C64F318E21B184C500B5F491 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		C693B41221AC48D200A948F4 /* BucketList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BucketList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C693B41521AC48D200A948F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C693B41721AC48D200A948F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C693B41A21AC48D200A948F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C693B41C21AC48E600A948F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C693B41F21AC48E600A948F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C64F318921B1832800B5F491 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C64F318A21B1839E00B5F491 /* BucketItem.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C693B40921AC48D100A948F4 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +66,7 @@
 		C693B41421AC48D200A948F4 /* BucketList */ = {
 			isa = PBXGroup;
 			children = (
+				C64F318921B1832800B5F491 /* Model */,
 				C693B42721AC4A0100A948F4 /* Resources */,
 				C693B42821AC4A1700A948F4 /* Controller */,
 				C693B42921AC4A2800A948F4 /* View */,
@@ -74,7 +87,8 @@
 		C693B42821AC4A1700A948F4 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				C693B41721AC48D200A948F4 /* ViewController.swift */,
+				C64F318E21B184C500B5F491 /* DataViewController.swift */,
+				C64F318C21B1845200B5F491 /* BucketItemCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -159,7 +173,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C693B41821AC48D200A948F4 /* ViewController.swift in Sources */,
+				C64F318F21B184C500B5F491 /* DataViewController.swift in Sources */,
+				C64F318D21B1845200B5F491 /* BucketItemCell.swift in Sources */,
+				C64F318B21B1839E00B5F491 /* BucketItem.swift in Sources */,
 				C693B41621AC48D200A948F4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
